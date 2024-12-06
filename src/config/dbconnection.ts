@@ -5,7 +5,7 @@ const AppDataSource = new DataSource({
   host: "localhost",
   port: 5433,
   username: "postgres",
-  password: "ESl33665599",
+  password: "postgres",
   database: "typeorm",
   entities: ["src/entities/**.ts"], // Add your entity classes here
   synchronize: true, // Set to false in production

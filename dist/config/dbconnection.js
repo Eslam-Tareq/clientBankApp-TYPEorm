@@ -7,7 +7,7 @@ const AppDataSource = new typeorm_1.DataSource({
     host: "localhost",
     port: 5433,
     username: "postgres",
-    password: "ESl33665599",
+    password: "postgres",
     database: "typeorm",
     entities: ["src/entities/**.ts"],
     synchronize: true,
